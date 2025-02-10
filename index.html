@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Ashley &hearts;</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zeyada&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/heart-svgrepo-com.svg">
+</head>
+<body>
+
+    <div class="main">
+        <div class="paper paper1">
+            <img src="./assets/heart-svgrepo-com.svg" alt="" srcset="">
+        </div>
+
+        <div class="paper paper2">
+            <p>Hey Ash, I know you're busy and stuff</p>
+            <p>NCP (Istorbo) 😠</p>
+        </div>
+
+        <div class="paper paper3">
+            <p style="font-style: italic;">杨安丽 😵</p>
+            <p>Don't be like the emoji that you can see above ah, don't overstress yourself!</p>
+        </div>
+        
+        <div class="paper paper4">
+            <p>我知道你很辛苦,</p>
+            <p>但也别忘了照顾好自己!! 😟</p>
+        </div>
+
+        <div class="paper paper5">
+            <p>Anyways, enough mandarin</p>
+            <p>I just want you to know na I am here &hearts;</p>
+        </div>
+
+        <div class="paper paper6">
+            <p>literally just making websites </p>
+            <p>because I have nothing to do 😎</p>
+        </div>
+        <div class="paper paper7">
+            <p>that's all!! </p>
+            <p>I hope that you have a great day tomorrow 😜</p>
+        </div>
+        <div class="paper paper8">
+            <p>    Made by Fredo </p>
+            <p>                     </p>
+            <p>    For Ash &hearts;</p>
+        </div>
+
+    </div>
+    
+    <footer>
+        <a href="https://github.com/Anujesh-Ansh" target="_blank">
+            <p>Made for you (enjoy the music) &hearts;</p>
+        </a>
+        <br />
+        
+        <!-- Preload added to minimize delay -->
+        <audio id="bg-music" autoplay loop preload="auto">
+            <source src="Yung Kai - Blue.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+        </audio>
+    </footer>
+
+    <script>
+        document.addEventListener("click", function() {
+            const audio = document.getElementById("bg-music");
+            audio.play().catch(error => console.log("Autoplay blocked, user interaction required."));
+        });
+
+        window.addEventListener("load", function() {
+            const audio = document.getElementById("bg-music");
+            audio.play().catch(error => console.log("Autoplay blocked, waiting for user interaction."));
+        });
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
